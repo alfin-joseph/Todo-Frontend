@@ -21,7 +21,7 @@ Installation Steps
 git clone https://github.com/yourusername/react-todoapp.git
 
 2.Navigate to the project directory:
-cd react-todoapp
+cd Todo-Frontend
 
 3.Install dependencies:
 npm install
