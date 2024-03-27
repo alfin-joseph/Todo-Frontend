@@ -44,9 +44,14 @@ export const logout = () => {
 };
 
 export const getToken = () => {
+    console.log(localStorage.getItem('token'))
     return localStorage.getItem('token');
 };
 
 export const isLoggedIn = () => {
-    return getToken() !== null;
+    if(getToken()){
+        return true
+    }else{
+        return false
+    }
 };
